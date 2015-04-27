@@ -3,6 +3,7 @@ imports="
     org.talend.core.model.process.INode 
     org.talend.core.model.process.ElementParameterParser 
     org.talend.designer.codegen.config.CodeGeneratorArgument
+    org.talend.designer.codegen.config.CodeGeneratorArgument
 " 
 %>
 <%@ include file="Log4jFileUtil.javajet"%>
