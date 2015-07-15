@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Robot Game
+Bundle-SymbolicName: com.osgix.game.robot; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgix.game.robot.plugin.RobotGamePlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.osgix.game.robot.control,
+ com.osgix.game.robot.game,
+ com.osgix.game.robot.robot,
+ com.osgix.game.robot.robot.player

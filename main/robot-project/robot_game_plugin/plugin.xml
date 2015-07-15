@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="com.osgix.game.robot" name="com.osgix.game.robot" schema="schema/com.osgix.game.robot.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Game"
+            id="com.osgix.game.robot">
+      </category>
+      <view
+            name="Robot Game"
+            icon="img/gnome-robots.png"
+            category="com.osgix.game.robot"
+            class="com.osgix.game.robot.ui.view.RobotGameView"
+            id="com.osgix.game.robot.ui.view.RobotGameView">
+      </view>
+   </extension>
+
+</plugin>

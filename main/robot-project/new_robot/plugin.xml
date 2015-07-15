@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.osgix.game.robot">
+      <robotType
+            class="com.osgix.game.newrobot.Robot1"
+            count="5"
+            icon="img/robot1.png"
+            name="ROBOT"
+            power="2"
+            speed="1">
+      </robotType>
+   </extension>
+
+</plugin>
